@@ -1,0 +1,8 @@
+{
+  "name": "Retro 3-Lane Dodger",
+  "description": "A 60-second retro arcade 3-lane vertical scrolling dodger game with dynamic difficulty scaling, neon visuals, and retro obstacles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

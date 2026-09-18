@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Press Start 2P', monospace, system-ui;
+  background-color: #080313;
+  color: #ffffff;
+  user-select: none;
+}
+
+/* CRT scanline and flicker effect for authentic arcade vibe */
+.crt-overlay {
+  pointer-events: none;
+  background: linear-gradient(
+    rgba(18, 16, 38, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 3px, 6px 100%;
+}
