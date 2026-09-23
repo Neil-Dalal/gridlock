@@ -53,6 +53,7 @@ export default function App() {
             {copied ? '✓ COPIED!' : '📋 RAW HTML'}
           </button>
 
+          {/*
           <a
             href="/game.html"
             target="_blank"
@@ -62,6 +63,7 @@ export default function App() {
           >
             ↗ STANDALONE
           </a>
+          */}
         </div>
       </header>
 
