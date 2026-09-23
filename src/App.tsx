@@ -47,7 +47,7 @@ export default function App() {
           <button
             type="button"
             onClick={handleCopyRawHTML}
-            className="text-[8px] bg-[#1a0c3b] hover:bg-[#2e1564] border border-[#ff007f] text-[#ff007f] px-2 py-1 rounded transition-all active:scale-95 cursor-pointer font-bold"
+            className="text-[8px] bg-[#1a0c3b] hover:bg-[#2e1564] border border-[#ff007f] text-[#ff007f] px-2 py-1 rounded transition-all active:scale-95 cursor-pointer font-bold hidden"
             title="Copy standalone single-file HTML code"
           >
             {copied ? '✓ COPIED!' : '📋 RAW HTML'}
@@ -57,7 +57,7 @@ export default function App() {
             href="/game.html"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[8px] bg-[#1a0c3b] hover:bg-[#2e1564] border border-[#00f0ff] text-[#00f0ff] px-2 py-1 rounded transition-all active:scale-95 cursor-pointer font-bold inline-block"
+            className="text-[8px] bg-[#1a0c3b] hover:bg-[#2e1564] border border-[#00f0ff] text-[#00f0ff] px-2 py-1 rounded transition-all active:scale-95 cursor-pointer font-bold inline-block hidden"
             title="Open pure single-file HTML in new tab"
           >
             ↗ STANDALONE
